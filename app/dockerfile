@@ -1,0 +1,7 @@
+from node 
+workdir /projet
+COPY dockerize ./
+RUN npm install
+CMD ["node","app.js"]
+EXPOSE 8000
+
